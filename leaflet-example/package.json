@@ -1,18 +1,21 @@
 {
-  "name": "leafletjs",
+  "name": "leaflet-example",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "beefy index.js -o",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "beefy index.js -o"
   },
-  "author": "",
+  "author": "jden <jason@denizac.org>",
   "license": "ISC",
   "dependencies": {
     "leaflet": "^0.7.3",
     "leaflet-map": "^0.1.0",
     "pr-request": "^2.36.0",
     "browser-request": "^0.3.1"
+  },
+  "devDependencies": {
+    "beefy": "^1.1.0",
+    "browserify": "^4.1.8"
   }
 }

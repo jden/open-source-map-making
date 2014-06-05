@@ -2,7 +2,7 @@ var L = require('leaflet')
 var map = require('leaflet-map')()
 var request = require('browser-request')
 
-map.setView([35.03625128110528, -85.29939651489256], 12)  
+map.setView([35.03625128110528, -85.29939651489256], 12)
 
 L.tileLayer("https://{s}.tiles.mapbox.com/v3/jden.ie42jhle/{z}/{x}/{y}.png", {
     minZoom: 0,
